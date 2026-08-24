@@ -1,28 +1,69 @@
-# Pkgs I Install For This Project
+# Prisma PostgreSQL Project
 
-1. `npm i express dotenv cors`
+## Packages Installed
 
-2. `npm i -D typescript tsx @types/node ts-node @types/express nodemon @types/cors`
+### 1. Install Express, dotenv, and CORS
 
-3. `npx tsc --init`
-   Create `tsconfig.json`
+```bash
+npm i express dotenv cors
+```
 
-4. `npm install prisma @types/pg --save-dev`
-   Install Prisma
+### 2. Install TypeScript and Development Dependencies
 
-5. `npm install @prisma/client @prisma/adapter-pg pg dotenv`
-   Install Prisma Client and PostgreSQL adapter
+```bash
+npm i -D typescript tsx @types/node ts-node @types/express nodemon @types/cors
+```
 
-6. `npx prisma`
+### 3. Initialize TypeScript
 
-7. `npx prisma init --output ../generated/prisma`
+```bash
+npx tsc --init
+```
 
-# Create Prisma App
+This creates the `tsconfig.json` file.
 
-8. `npx prisma migrate dev --name init`
+### 4. Install Prisma
 
-9. `npx prisma generate`
+```bash
+npm install prisma @types/pg --save-dev
+```
 
-# Prisma Documentation
+### 5. Install Prisma Client and PostgreSQL Dependencies
+
+```bash
+npm install @prisma/client @prisma/adapter-pg pg dotenv
+```
+
+## Prisma Setup
+
+### 6. Check Prisma CLI
+
+```bash
+npx prisma
+```
+
+### 7. Initialize Prisma
+
+```bash
+npx prisma init --output ../generated/prisma
+```
+
+This creates the Prisma configuration and schema files.
+
+## Create Prisma Database
+
+### 8. Create the Initial Migration
+
+```bash
+npx prisma migrate dev --name init
+```
+
+### 9. Generate Prisma Client
+
+```bash
+npx prisma generate
+```
+
+## Prisma Documentation
 
 [Prisma Documentation](https://www.prisma.io/docs/prisma-orm/quickstart/prisma-postgres)
