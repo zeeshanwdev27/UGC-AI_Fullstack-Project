@@ -1,6 +1,4 @@
-# Prisma PostgreSQL Project
-
-## Packages Installed
+# Packages Installed For Backend
 
 ### 1. Install Express, dotenv, and CORS
 
