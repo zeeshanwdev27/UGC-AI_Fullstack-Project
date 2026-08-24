@@ -27,6 +27,7 @@ export interface Project {
     aspectRatio: string;
     targetLength?: number;
     generatedImage?: string;
+    generatedVideo?: string;
     isGenerating: boolean;
     isPublished: boolean;
     error?: string;

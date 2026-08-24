@@ -4,9 +4,5 @@
 2. lenis
 3. framer-motion
 4. lucide-react
-
-
-
-
-# Time stamps
-0. 3:04:00
+5. npm install @clerk/react
+6. npm install @clerk/ui

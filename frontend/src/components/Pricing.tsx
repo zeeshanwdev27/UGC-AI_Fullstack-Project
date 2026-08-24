@@ -1,12 +1,19 @@
-import { Check } from 'lucide-react';
-import { PrimaryButton, GhostButton } from './Buttons';
+// Note Pricing Features We Set on Clerk->Configration->Billing->Subscription plans
+
+// import { Check } from 'lucide-react';
+// import { PrimaryButton, GhostButton } from './Buttons';
+// import { plansData } from '../assets/dummy-data';
+// import { motion } from 'framer-motion';
+// import { useRef } from 'react';
+
 import Title from './Title';
-import { plansData } from '../assets/dummy-data';
-import { motion } from 'framer-motion';
-import { useRef } from 'react';
+import { PricingTable } from '@clerk/react';
+
 
 export default function Pricing() {
-    const refs = useRef<(HTMLDivElement | null)[]>([]);
+    
+    // const refs = useRef<(HTMLDivElement | null)[]>([]);
+
     return (
         <section id="pricing" className="py-20 bg-white/3 border-t border-white/6">
             <div className="max-w-6xl mx-auto px-4">
@@ -17,7 +24,10 @@ export default function Pricing() {
                     description="Our Pricing Plans are simple, transparent and flexible. Choose the plan that best suits your needs."
                 />
 
+
+                {/*  
                 <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+                    
                     {plansData.map((plan, i) => (
                         <motion.div
                             key={i}
@@ -85,6 +95,15 @@ export default function Pricing() {
                         </motion.div>
                     ))}
                 </div>
+                */}
+
+
+                {/* Clerk Pricing Table */}
+                <div className="flex flex-wrap items-center justify-center max-w-5xl mx-auto">
+                    <PricingTable  appearance={{ variables: { colorBackground: 'none' }, elements: { pricingTableCardBody: 'bg-white/6', pricingTableCardHeader: 'bg-white/10', switchThumb: 'bg-white'}}}/>
+                </div>
+
+
             </div>
         </section>
     );

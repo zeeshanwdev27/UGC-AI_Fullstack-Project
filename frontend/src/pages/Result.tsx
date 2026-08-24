@@ -49,6 +49,7 @@ function Result() {
           {/* Main Result Display */}
           <div className="lg:col-span-2 space-y-6">
             <div className="glass-panel inline-block p-2 rounded-2xl">
+
               <div className={`${project?.aspectRatio === '9:16' ? 'aspect-9/16' : 'aspect-video'} sm:max-h-200 rounded-xl bg-gray-900 overflow-hidden relative`}>
                 {project?.generatedVideo ? (
                   <video src={project.generatedVideo} controls autoPlay loop className="w-full h-full object-cover"/>
@@ -56,6 +57,7 @@ function Result() {
                   <img src={project.generatedImage} alt="Generated Result" className="w-full h-full object-cover"/>
                 )}
               </div>
+              
             </div>
           </div>
 
