@@ -76,3 +76,16 @@ npm install @clerk/express
 ## Prisma Documentation
 
 [Prisma Documentation](https://www.prisma.io/docs/prisma-orm/quickstart/prisma-postgres)
+[Clerk-Express Documentation](https://clerk.com/docs/expressjs/getting-started/quickstart)
+
+
+
+
+```markdown
+## Environment Variables
+
+```env
+PORT=
+DATABASE_URL=
+CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
