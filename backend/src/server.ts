@@ -5,6 +5,8 @@ import 'dotenv/config'
 import { clerkMiddleware } from '@clerk/express'
 import clerkWebHook from './controllers/clerk.webhook.js'
 import * as Sentry from "@sentry/node"
+import userRouter from './routes/user.routes.js'
+import projectRouter from './routes/project.routes.js'
 
 
 const app = express()
@@ -16,6 +18,11 @@ app.use(cors())
 app.post('/api/clerk', express.raw({ type: 'application/json' }), clerkWebHook)
 app.use(express.json())
 app.use(clerkMiddleware())
+
+
+// routes middleware
+app.use('/api/user', userRouter)
+app.use('/api/project', projectRouter)
 
 
 // Route
