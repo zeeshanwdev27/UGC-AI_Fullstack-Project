@@ -62,6 +62,17 @@ npx prisma migrate dev --name init
 npx prisma generate
 ```
 
+
+## More Libraries
+
+### 1. Clerk With Express
+```bash
+npm install @clerk/express
+```
+
+
+
+
 ## Prisma Documentation
 
 [Prisma Documentation](https://www.prisma.io/docs/prisma-orm/quickstart/prisma-postgres)
