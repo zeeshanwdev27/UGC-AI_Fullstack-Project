@@ -32,7 +32,7 @@ npm install prisma @types/pg --save-dev
 npm install @prisma/client @prisma/adapter-pg pg dotenv
 ```
 
-## Prisma Setup
+## ~ Prisma Setup
 
 ### 6. Check Prisma CLI
 
@@ -48,7 +48,7 @@ npx prisma init --output ../generated/prisma
 
 This creates the Prisma configuration and schema files.
 
-## Create Prisma Database
+## ~ Create Prisma Database
 
 ### 8. Create the Initial Migration
 
@@ -63,7 +63,7 @@ npx prisma generate
 ```
 
 
-## More Libraries
+## ~ More Libraries
 
 ### 1. Clerk With Express
 ```bash
@@ -76,7 +76,7 @@ npm install @sentry/node --save
 
 
 
-## Prisma Documentation
+## ~ Prisma Documentation
 
 [Prisma Documentation](https://www.prisma.io/docs/prisma-orm/quickstart/prisma-postgres)
 [Clerk-Express Documentation](https://clerk.com/docs/expressjs/getting-started/quickstart)
@@ -85,7 +85,7 @@ npm install @sentry/node --save
 
 
 
-## Environment Variables
+## ~ Environment Variables
 
 ```bash
 PORT =
@@ -98,7 +98,7 @@ CLERK_SECRET_KEY =
 
 
 
-## Webhook locally through ngrok
+## ~ Webhook locally through ngrok
 
 ### Run locally in Command Prompt
 ```bash
