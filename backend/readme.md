@@ -81,11 +81,11 @@ npm install @clerk/express
 
 
 
-```markdown
 ## Environment Variables
 
-```env
-PORT=
-DATABASE_URL=
-CLERK_PUBLISHABLE_KEY=
-CLERK_SECRET_KEY=
+```bash
+PORT =
+DATABASE_UR =
+CLERK_PUBLISHABLE_KEY =
+CLERK_SECRET_KEY =
+```
