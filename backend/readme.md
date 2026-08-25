@@ -69,7 +69,10 @@ npx prisma generate
 ```bash
 npm install @clerk/express
 ```
-
+### 2. Sentry For Testing
+```bash
+npm install @sentry/node --save
+```
 
 
 
@@ -89,4 +92,15 @@ PORT =
 DATABASE_UR =
 CLERK_PUBLISHABLE_KEY =
 CLERK_SECRET_KEY =
+```
+
+
+
+
+
+## Webhook locally through ngrok
+
+### Run locally in Command Prompt
+```bash
+ngrok http 5000
 ```
