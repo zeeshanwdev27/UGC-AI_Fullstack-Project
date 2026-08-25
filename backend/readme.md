@@ -77,6 +77,7 @@ npm install @clerk/express
 
 [Prisma Documentation](https://www.prisma.io/docs/prisma-orm/quickstart/prisma-postgres)
 [Clerk-Express Documentation](https://clerk.com/docs/expressjs/getting-started/quickstart)
+[Clerk-Webhook Documentation](https://clerk.com/docs/guides/development/webhooks/syncing)
 
 
 
