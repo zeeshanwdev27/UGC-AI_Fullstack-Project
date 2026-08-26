@@ -73,6 +73,23 @@ npm install @clerk/express
 ```bash
 npm install @sentry/node --save
 ```
+### 3. Multer For Files Handling
+```bash
+npm i multer
+npm i -D @types/multer
+```
+### 4. Cloudinary For Cloud Storage
+```bash
+npm i cloudinary
+```
+### 5. Google GENAI For Including AI Features
+```bash
+npm i @google/genai
+```
+### 6. Axios
+```bash
+npm i axios
+```
 
 
 
