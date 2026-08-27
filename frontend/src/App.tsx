@@ -3,6 +3,7 @@ import SoftBackdrop from './components/SoftBackdrop';
 import Footer from './components/Footer';
 import LenisScroll from './components/lenis';
 import { Route, Routes } from 'react-router-dom';
+import {Toaster} from 'react-hot-toast'
 
 // Pages
 import Home from './pages/Home';
@@ -18,6 +19,7 @@ import Loading from './pages/Loading';
 function App() {
 	return (
 		<>
+		    <Toaster toastOptions={{style: {background: '#333', color: '#fff'}}}/>
 			<SoftBackdrop />
 			<LenisScroll />
 			<Navbar />

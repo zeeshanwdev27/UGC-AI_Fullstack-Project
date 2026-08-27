@@ -8,9 +8,3 @@ This project uses the following technologies and libraries:
 3. **Neon** — PostgreSQL database
 4. **Prisma** — ORM for PostgreSQL
 5. **Sentry** — ErrorMonitoring Tool for Project
-
-
-
-
-# Time stamps
-0. **6:17:00**

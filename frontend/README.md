@@ -1,8 +1,21 @@
-# Pkgs I Install For This Project
+# Pkgs I Install For Frontend
 
-1. react-router-dom
-2. lenis
-3. framer-motion
-4. lucide-react
-5. npm install @clerk/react
-6. npm install @clerk/ui
+```bash
+npm install react-router-dom
+npm install lenis
+npm install framer-motion
+npm install lucide-react
+npm install @clerk/react
+npm install @clerk/ui
+npm install axios
+npm install react-hot-toast
+```
+
+
+
+# ENV's
+
+```bash
+VITE_CLERK_PUBLISHABLE_KEY=
+VITE_BASEURL=
+```
