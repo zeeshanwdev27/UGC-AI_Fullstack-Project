@@ -44,6 +44,8 @@ npx prisma
 
 ```bash
 npx prisma init --output ../generated/prisma
+OR
+npx prisma orm init --target postgres --authoring psl
 ```
 
 This creates the Prisma configuration and schema files.
